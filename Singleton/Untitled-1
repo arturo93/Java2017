@@ -1,0 +1,6 @@
+public class TestReloj{
+    public static void main (String[]args){
+        Reloj instancia1 = Reloj.getInstance();
+        System.out.println("Dir inst1: " + instancia1);
+    }
+}
