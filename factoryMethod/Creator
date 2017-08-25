@@ -1,0 +1,10 @@
+package factoryMethod;
+
+public abstract class Creator 
+{
+    public abstract void create (String typeProduct);
+    public Product factoryMethod(String typeProduct)
+    {
+        create(typeProduct);
+    }
+}
